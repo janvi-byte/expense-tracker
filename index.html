@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="sidepart">
+        <div class="part1">
+            <p>Add new</p>
+        </div>
+        <div class="part2">
+            <p>Entry type:</p>
+            <select name="karcha" id="karchaa">
+            <option value="Expense">Expense</option>
+            <option value="saab">Credit</option>
+            </select>
+        </div>
+        <div class="part3">
+            <p>Name:</p>
+            <input class="input1"   type="text" placeholder="name">
+        </div>
+        <div class="part4">
+            <p>Amount:</p>
+            <input class="input2"    type="text" placeholder="0">
+        </div>
+        <div class="part5">
+            <button class="add">Add Expense</button>
+        </div>
+    </div>
+    <div class="sidepart2">
+        <div class="section1">
+            <p>Expenses</p>
+        </div>
+        <div class="section2">
+            <table id="table">
+
+            <tr >
+                <th>S.no.</th>
+                <th>Name</th>
+                <th>Amount</th>
+            </tr>
+            
+            </table>
+        </div>
+        <div class="section3">
+            <p>Total:</p>
+            <p class="total"></p>
+        </div>
+    </div>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
